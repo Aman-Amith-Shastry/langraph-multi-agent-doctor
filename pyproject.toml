@@ -1,0 +1,18 @@
+[project]
+name = "langraph-basics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fpdf2>=2.8.3",
+    "ipykernel>=6.29.5",
+    "langchain-community>=0.3.27",
+    "langchain-tavily>=0.2.7",
+    "langchain[ollama]>=0.3.26",
+    "langgraph>=0.5.1",
+    "markdown2>=2.5.3",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.46.1",
+    "xmltodict>=0.14.2",
+]
